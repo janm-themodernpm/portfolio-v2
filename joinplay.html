@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>JoinPlay — Case Study · Jan Patrick McGhee</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body data-aesthetic="editorial" data-theme="light">
+
+<header class="nav">
+  <a href="index.html" class="nav__brand">
+    <span class="nav__mark" aria-hidden="true"></span>
+    <span class="nav__name">Jan&nbsp;Patrick&nbsp;McGhee</span>
+  </a>
+  <nav class="nav__links">
+    <a href="index.html#work">Work</a>
+    <a href="index.html#experience">Experience</a>
+    <a href="index.html#ai">AI&nbsp;practice</a>
+    <a href="index.html#contact">Contact</a>
+  </nav>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+    <span class="theme-toggle__dot"></span>
+  </button>
+</header>
+
+<section class="case-hero">
+  <a href="index.html" class="case-hero__back">← Back to work</a>
+  <div class="case-hero__meta">
+    <span>Case study · 01</span>
+    <span>Founder · Product Lead</span>
+    <span>2025 → Present</span>
+    <span>Pre-launch · <a href="https://joinplay.io/" target="_blank" rel="noopener" style="color:var(--accent);">joinplay.io</a></span>
+  </div>
+  <h1 class="case-hero__title">JoinPlay</h1>
+  <p class="case-hero__kicker">A consumer platform pioneering a new category — <em>social sports integration</em> — that helps people find rec communities where they actually belong, matched on skill <em>and</em> social fit.</p>
+</section>
+
+<div class="case-shot">
+  <div class="case-shot__img"><img src="uploads/joinplay.png" alt="JoinPlay landing page"></div>
+</div>
+
+<div class="case-facts">
+  <div class="case-fact"><div class="case-fact__lbl">Role</div><div class="case-fact__val">Founder, PM of One</div></div>
+  <div class="case-fact"><div class="case-fact__lbl">Stage</div><div class="case-fact__val">Pre-launch · MVP build</div></div>
+  <div class="case-fact"><div class="case-fact__lbl">Market</div><div class="case-fact__val">$4.64B adult social sports</div></div>
+  <div class="case-fact"><div class="case-fact__lbl">Beachhead</div><div class="case-fact__val">Mid-size U.S. cities</div></div>
+</div>
+
+<article class="case-body">
+
+  <section>
+    <h2><span class="num">01 / The problem</span>Rec sports fails at the one moment that determines retention: the transition from "I signed up" to "I belong here."</h2>
+    <p>Recreational sports platforms have optimized for logistics — scheduling, payments, performance tracking — while abandoning users at the moment that actually decides whether they stay. Meanwhile, costs have turned participation into a luxury: adult leagues routinely run $700–$1,060 per season in major metros, and average family spending on a child's primary sport rose 46% between 2019 and 2024.</p>
+    <p>I mapped the 16 jobs a rec-sports participant needs done, across three tiers: <strong>Access &amp; Readiness</strong>, <strong>Social Integration</strong>, and <strong>Identity &amp; Belonging</strong>. Then I rated 13 competitor platforms against all 16.</p>
+    <div class="pullquote">Every platform does Tier 1 at least adequately. Every platform leaves Tier 2 — the social integration jobs — almost entirely unserved. That's a structural market failure, and it's the one worth solving.</div>
+    <p>A 2023 review of 29 adult sports-participation studies found that the mental-health benefits of rec sports flow through two pathways — physical activity <em>and</em> social relationships — with "belonging" explicitly identified as a mechanism. One included study found no relationship at all between activity volume and wellbeing outcomes. Platforms optimizing for access and scheduling while ignoring social integration may be optimizing the wrong pathway entirely.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">02 / The insight</span>Every activity has two fits. Every incumbent only measures one.</h2>
+    <p>The breakthrough was separating <strong>Activity Fit</strong> (skill match, location, schedule) from <strong>Social Fit</strong> (welcoming, competitive intensity, social continuity). Both matter. Either alone produces bad matches and silent churn.</p>
+    <p>That became the core product hypothesis: <em>if both fits can be quantified and made visible before a user commits, the social-integration tax on newcomers collapses</em>.</p>
+    <ul class="case-list">
+      <li><strong>Activity Fit</strong> — two required inputs per sport at onboarding (skill tier, availability), plus two optional signals (years experience, frequency). Self-reports cross-validate against post-session feedback over time, correcting for the well-documented tendency to overestimate skill at sign-up.</li>
+      <li><strong>Social Fit</strong> — scores a group on three dimensions: newcomer welcoming, competitive intensity, and social continuity. Weighting starts from JTBD priority ranking; once feedback data accumulates, weights shift to whichever dimension most predicts whether newcomers return.</li>
+      <li><strong>Two scores visible before RSVP</strong> — the fit scores appear on every activity card, <em>before</em> the user commits. Every group knows it's being scored, which changes incentive dynamics at the supply side.</li>
+    </ul>
+    <p>A user can hit 94 on Activity Fit and 66 on Social Fit for the same event — near-perfect skill/location/schedule match, but a competitive-intensity gap that would make them quietly never come back. That's the exact mismatch the category has been invisibly producing for years.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">03 / Why now, and where to enter</span>Mid-size U.S. cities are the beachhead.</h2>
+    <p>242M Americans participated in sports or fitness in 2023 — ~80% of the population aged six and older. Participation intent has grown 118% since 2023, and one in five Americans now plays in a rec league or plans to (47% among Gen Z). The market is real and growing.</p>
+    <p>Major metros already have dense league infrastructure. Mid-size cities — the 441 U.S. cities between 75K and 500K residents, covering 64M Americans across 45 states — don't. Discovery is harder, fit is impossible to assess, and no incumbent has meaningfully served them. The need is more acute, not less. It's also a strategic advantage: in markets where even logistics is underserved, JoinPlay can communicate value before every social-integration feature is live.</p>
+    <p>Within that beachhead, three segments by social motivation:</p>
+    <ul class="case-list">
+      <li><strong>Primarily Social</strong> players — use sports as a vehicle for friendship. High LTV, high word-of-mouth. No incumbent serves them because every major competitor is built around the activity, not the relationship.</li>
+      <li><strong>Balanced Social-Activity</strong> players — want both dimensions optimized. The largest addressable segment and the highest-complexity problem. Primary target.</li>
+      <li><strong>Activity-Focused</strong> players — social benefits are secondary. Existing fitness apps serve them adequately. Secondary market.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="num">04 / The system</span>Three objects, two mirrored profiles, one fit score per dimension.</h2>
+    <p>JoinPlay runs on three primary objects — <strong>users</strong>, <strong>groups</strong>, and <strong>activities</strong>. Users build a profile rating themselves on skill, availability, and social preferences. Groups do the same across mirrored dimensions. Groups post activities; every activity card surfaces Activity Fit and Social Fit scores derived from comparing the user profile against the group profile. Post-session feedback refines both the group's validated scores and the user's own preference profile. The next match is more accurate than the last.</p>
+    <p>Three product principles separate it from the category:</p>
+    <ul class="case-list">
+      <li><strong>Scores before commitment.</strong> Activity Fit and Social Fit visible on every card. No hidden ranking.</li>
+      <li><strong>Scoring groups, not individuals.</strong> People fear being judged. Groups don't. Users reflect on their own experience, not on each other. This was a deliberate pivot away from peer-rating models that bleed trust.</li>
+      <li><strong>Unvalidated scores are labeled.</strong> New groups show a self-reported culture profile clearly distinguished from a validated score. Validation requires a minimum feedback threshold.</li>
+    </ul>
+    <p><strong>Accessible entry.</strong> Creating a group, joining an activity, and attending sessions costs nothing. After three attended activities, continued access to the intelligence layer requires a $5–8/mo subscription (pending WTP work). The paywall is tied to demonstrated value, not a calendar — three sessions is enough to experience the fit scoring working.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">05 / What I'd measure instead of vanity</span></h2>
+    <p>Since there are no real users yet, I won't pretend. The metrics worth watching post-launch are the ones tied to the social-integration thesis — not signups or DAU.</p>
+    <div class="outcomes">
+      <div class="outcome"><div class="outcome__num">≥4.0/5</div><div class="outcome__lbl">Belonging Confidence — avg rating on "I felt welcomed by this group"</div></div>
+      <div class="outcome"><div class="outcome__num">&lt;14d</div><div class="outcome__lbl">Social Integration Speed — median days from signup to reported sense of belonging</div></div>
+      <div class="outcome"><div class="outcome__num">≥70%</div><div class="outcome__lbl">Culture Match Accuracy — users rating expected-vs-actual culture alignment ≥4/5</div></div>
+      <div class="outcome"><div class="outcome__num">≥50%</div><div class="outcome__lbl">Newcomer Absorption — % of newcomers who return to the same group at least twice</div></div>
+    </div>
+    <p>These are diagnostic, not vanity. If Belonging Confidence holds at 4.0+ while Newcomer Absorption stays above 50%, the core hypothesis is working. If signups grow but those two drift down, we're scaling a broken experience — which is the specific failure mode I'm designing against.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">06 / Where it stands</span>Pre-launch, tightening core loops before I start marketing.</h2>
+    <div class="outcomes">
+      <div class="outcome"><div class="outcome__num">13</div><div class="outcome__lbl">Sports supported at launch</div></div>
+      <div class="outcome"><div class="outcome__num">16</div><div class="outcome__lbl">JTBD jobs mapped across 3 tiers</div></div>
+      <div class="outcome"><div class="outcome__num">13</div><div class="outcome__lbl">Competitor platforms rated against the full JTBD framework</div></div>
+      <div class="outcome"><div class="outcome__num">PWA</div><div class="outcome__lbl">Progressive Web App — faster iteration, lower discovery friction</div></div>
+    </div>
+    <p>The MVP is live at <a href="https://joinplay.io/" target="_blank" rel="noopener" style="color:var(--ink);border-bottom:1px solid var(--accent);">joinplay.io</a>, with the social-integration feedback loop in active build. Public launch follows the community-embedded GTM plan: local rec-center partnerships, problem-based search capture ("pickup basketball near me"), and word-of-mouth amplification before any paid acquisition. The discipline is quality over volume — healthy density in one city beats fragmented scale across five.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">07 / What I'd take to the next role</span></h2>
+    <ul class="case-list">
+      <li>A working demonstration that a single PM, plus an agentic stack, can execute 0→1 scope that used to require a pod — discovery, PRD, architecture, build, and launch.</li>
+      <li>Operational fluency with the messy parts of 0→1: pricing, legal, payments, ops, analytics instrumentation, safety &amp; moderation design.</li>
+      <li>Hard-won conviction that <em>transparency in ranking systems</em> is a product strategy, not a compliance feature — and that measuring the right thing (belonging, not RSVPs) is the single highest-leverage PM decision in a community product.</li>
+    </ul>
+  </section>
+
+</article>
+
+<nav class="case-next">
+  <span class="case-next__lbl">Next case study</span>
+  <a href="spec-check.html" class="case-next__link">Spec-Check</a>
+</nav>
+
+<footer class="site-foot">
+  <div class="site-foot__l">© 2026 Jan Patrick McGhee</div>
+  <div class="site-foot__r"><span class="site-foot__mono">Built with React, Claude, and stubbornness.</span></div>
+</footer>
+
+<div id="cursor-label" class="cursor-label" aria-hidden="true"></div>
+<script src="assets/site.js"></script>
+</body>
+</html>
