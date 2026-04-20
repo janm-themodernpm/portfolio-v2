@@ -125,9 +125,9 @@
 
   <section>
     <h2><span class="num">04 / Design decisions</span></h2>
-    <p><strong>Specialist &gt; generalist.</strong> I initially tried a single agent with a long rubric. It produced mush — every axis scored 60-ish, no sharp findings. Splitting into five single-mandate agents dropped variance and surfaced genuinely actionable issues. The orchestrator became thinner, not thicker.</p>
-    <p><strong>A score, not a verdict.</strong> Readiness Score is a diagnostic, not a gatekeeper. It's ambiguous by design — 62% means "go, but with these three things fixed first," which is how PMs actually reason. A binary pass/fail would have been easier to build and worse to use.</p>
-    <p><strong>Severity bands, not stars.</strong> Findings ship in four bands — Mental Model, Metric Gap, Stakeholder Alert, Edge Case — because that's how engineers triage. Adoption jumped when I stopped being clever with severity names.</p>
+    <p><strong>Specialist &gt; generalist.</strong> I initially tried a single agent with a long rubric. It produced mush — every axis scored 60-ish, no sharp findings. Splitting into five single-mandate agents dropped variance and surfaced findings sharp enough to act on. The orchestrator became thinner, not thicker.</p>
+    <p><strong>A score, not a verdict.</strong> Readiness Score is a diagnostic, not a gatekeeper. It's ambiguous by design — 62% means "go, but with these three things fixed first." A binary pass/fail would have been easier to build and worse to use.</p>
+    <p><strong>Severity bands, not stars.</strong> Findings ship in four bands — Mental Model, Metric Gap, Stakeholder Alert, Edge Case — because that's how engineers triage. The findings got more useful when I stopped being clever with severity names.</p>
   </section>
 
   <section>
@@ -146,7 +146,7 @@
     <ul class="case-list">
       <li>Orchestrated multi-agent systems are genuinely better than single-agent ones for <em>judgment</em> tasks — not because models are stronger, but because mandates stay sharper.</li>
       <li>The UX around agent output is 70% of the product. Nobody trusts a number without severity, evidence, and a path to act on it.</li>
-      <li>Agentic tools are at their best when they <em>review</em> human work, not when they <em>replace</em> it. That's the product philosophy I'm carrying into everything next.</li>
+      <li>Agentic tools are at their best when they <em>review</em> human work, not when they <em>replace</em> it.</li>
     </ul>
   </section>
 
@@ -159,7 +159,7 @@
 
 <footer class="site-foot">
   <div class="site-foot__l">© 2026 Jan Patrick McGhee</div>
-  <div class="site-foot__r"><span class="site-foot__mono">Built with React, Claude, and stubbornness.</span></div>
+  <div class="site-foot__r"><span class="site-foot__mono">Built with HTML, Claude, and stubbornness.</span></div>
 </footer>
 
 <div id="cursor-label" class="cursor-label" aria-hidden="true"></div>
